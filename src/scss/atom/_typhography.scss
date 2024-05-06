@@ -1,0 +1,23 @@
+// Typhography
+@for $i from 10 through 40 {
+  .fs-#{$i} {
+    font-size: 0px + $i;
+  }
+}
+
+.fw-b {
+  font-weight: bold; // font-size 700
+}
+
+.fw-400 {
+  font-weight: 400;
+}
+
+.fw-600 {
+  font-weight: 600;
+}
+
+// Colors
+.bg-red {
+  background-color: red;
+}

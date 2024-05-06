@@ -1,0 +1,11 @@
+// Spacing
+@for $i from 1 through $spacingLength {
+  @if $i % 4 == 0 {
+    .pa-#{$i} {
+      padding: 0px + $i;
+    }
+    .ma-#{$i} {
+      margin: 0px + $i;
+    }
+  }
+}

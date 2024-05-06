@@ -1,0 +1,11 @@
+// Size
+@for $i from 0 through $sizingLength {
+  @if $i % 4 == 0 {
+    .h-#{$i} {
+      height: 0px + $i;
+    }
+    .w-#{$i} {
+      width: 0px + $i;
+    }
+  }
+}
